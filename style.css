@@ -1,0 +1,148 @@
+h2{ 
+    color:rgb(59, 59, 116);
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    color:  #3E363F;
+    margin: 0;
+    background: #f6f5f7;
+    padding-top: 70px;
+}
+header {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+nav  {
+    
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position:fixed;
+    background-color:#fcfcfc;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #fff7f7;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #332e50;
+    border-width: 2px;
+    margin-bottom: 30px;
+    background-color: #fffffffd;
+}
+
+#web {color: rgb(195, 209, 255);
+      box-shadow:#424141 
+
+}
+.menu-item{
+    box-shadow: 0 0 5px rgba(0, 0, 0.1);
+    padding:10px;
+    display:inline-block;
+    margin-inline: 5px;
+}
+.menu-item:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: #ddd;
+}
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#experiencia ul li strong {
+    font-weight: bold;
+}
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#proyectos ul li a:hover {
+    text-decoration: underline;
+}
+#contacto form {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#contacto form textarea {
+    height: 100px;
+}
+
+#contacto form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+@keyframes aparecer 
+    from {
+        opacity: 0;
+    }
